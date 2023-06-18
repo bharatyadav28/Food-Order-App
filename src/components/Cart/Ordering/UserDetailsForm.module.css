@@ -1,0 +1,81 @@
+.user-form {
+  margin: 1rem 0.5rem;
+}
+
+.form-control {
+  margin: 0.3rem;
+}
+.form-control label {
+  display: block;
+  font-size: 12px;
+}
+.form-control input {
+  border: 1px solid #aeabab;
+  border-radius: 5px;
+  padding: 0.2rem 0.5rem;
+  font-size: 12px;
+}
+
+.form-control input:focus {
+  outline: none;
+  border: 1px solid #757474;
+}
+
+.invalid input {
+  border-color: red;
+  background-color: rgb(250, 238, 238);
+}
+
+.invalid input:focus {
+  border-color: orange;
+  background-color: rgb(252, 246, 235);
+}
+
+.form-control p {
+  color: red;
+  font-size: 10px;
+  font-weight: 500;
+  margin: 0.2rem;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.cart-btns {
+  margin-top: 0.4rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-actions {
+  text-align: right;
+}
+.form-actions button {
+  border-radius: 25px;
+  padding: 0.55rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+
+  margin: 0.25rem;
+}
+
+.cancel {
+  border: 1px solid #4d1601;
+  color: #4d1601;
+}
+.confirm {
+  background-color: #4d1601;
+  color: white;
+}
+
+.cancel:active,
+.cancel:hover {
+  background-color: #5a1a01;
+  border-color: #5a1a01;
+  color: white;
+}
+
+.confirm:active,
+.confirm:hover {
+  background-color: white;
+  border-color: #5a1a01;
+  color: #5a1a01;
+}

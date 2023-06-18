@@ -1,0 +1,44 @@
+.available-meals {
+  color: black;
+  width: 70%;
+  list-style: none;
+  position: relative;
+  margin: auto;
+  top: -9rem;
+  padding: 0.25rem 2rem;
+  animation: meals-appear 1s ease-out forwards;
+}
+
+.available-meals ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.available-meals ul p {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 552px) {
+  .available-meals {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .available-meals {
+    width: 100%;
+  }
+}
